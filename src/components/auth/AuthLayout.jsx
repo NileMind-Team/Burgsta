@@ -31,7 +31,7 @@ export default function AuthLayout({
 
   return (
     <div
-      className={`min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 relative font-sans overflow-hidden transition-colors duration-300`}
+      className={`min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 relative font-sans overflow-hidden transition-colors duration-300`}
       dir="rtl"
     >
       {/* Background decorative elements */}

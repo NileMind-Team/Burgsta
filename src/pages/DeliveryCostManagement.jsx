@@ -37,7 +37,7 @@ export default function DeliveryCostManagement() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
       </div>
     );
@@ -52,7 +52,7 @@ export default function DeliveryCostManagement() {
           content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
-      <div className="min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 py-4 sm:py-8 transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 py-4 sm:py-8 transition-colors duration-300">
         <div className="max-w-7xl mx-auto" dir="rtl">
           <HeaderStats
             deliveryAreasCount={deliveryAreas.length}

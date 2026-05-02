@@ -704,7 +704,7 @@ export default function Addresses() {
         className={`min-h-screen flex items-center justify-center ${
           darkMode
             ? "dark bg-gray-900"
-            : "bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5]"
+            : "bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30"
         } px-4`}
       >
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
@@ -725,7 +725,7 @@ export default function Addresses() {
         className={`min-h-screen ${
           darkMode
             ? "dark bg-gray-900"
-            : "bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5]"
+            : "bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30"
         } px-3 sm:px-4 md:px-6 py-3 sm:py-6 relative font-sans overflow-hidden transition-colors duration-300`}
       >
         <div className="absolute inset-0 overflow-hidden">

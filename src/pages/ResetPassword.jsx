@@ -205,7 +205,7 @@ export default function ResetPassword() {
           content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 relative font-sans overflow-hidden transition-colors duration-300">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 relative font-sans overflow-hidden transition-colors duration-300">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -left-20 -top-20 w-80 h-80 bg-gradient-to-r from-[#F36B39]/10 to-[#000000]/10 dark:from-[#F36B39]/20 dark:to-[#000000]/20 rounded-full blur-3xl"></div>
           <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-gradient-to-r from-[#000000]/10 to-[#F36B39]/10 dark:from-[#000000]/20 dark:to-[#F36B39]/20 rounded-full blur-3xl"></div>

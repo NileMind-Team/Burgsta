@@ -451,7 +451,7 @@ const Favorites = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
       </div>
     );
@@ -466,7 +466,7 @@ const Favorites = () => {
           content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
-      <div className="min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 md:px-6 py-3 sm:py-6 relative font-sans overflow-hidden transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 md:px-6 py-3 sm:py-6 relative font-sans overflow-hidden transition-colors duration-300">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -left-10 sm:-left-20 -top-10 sm:-top-20 w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 bg-[#F36B39]/10 rounded-full blur-2xl sm:blur-3xl animate-pulse"></div>
           <div className="absolute -right-10 sm:-right-20 -bottom-10 sm:-bottom-20 w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 bg-[#F36B39]/10 rounded-full blur-2xl sm:blur-3xl animate-pulse"></div>

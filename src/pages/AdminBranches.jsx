@@ -594,7 +594,7 @@ export default function AdminBranches() {
 
   if (isLoadingAuth || isLoadingData) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
       </div>
     );
@@ -614,7 +614,7 @@ export default function AdminBranches() {
         />
       </Helmet>
       <div
-        className="min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 md:px-6 py-3 sm:py-6 relative font-sans overflow-hidden"
+        className="min-h-screen bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 md:px-6 py-3 sm:py-6 relative font-sans overflow-hidden"
         dir="rtl"
       >
         <div className="absolute inset-0 overflow-hidden">

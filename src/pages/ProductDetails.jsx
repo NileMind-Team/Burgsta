@@ -1050,18 +1050,15 @@ const ProductDetails = () => {
     navigate("/cart");
   };
 
-  // التحقق من صلاحيات المستخدم
   const isAdmin = userRoles.includes("Admin");
   const isRestaurant = userRoles.includes("Restaurant");
   const isBranch = userRoles.includes("Branch");
-
-  // Branch users can only see the toggle active button
   const canShowAdminButtons = isAdmin || isRestaurant;
   const canShowToggleButton = isAdmin || isRestaurant || isBranch;
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
       </div>
     );
@@ -1069,7 +1066,7 @@ const ProductDetails = () => {
 
   if (!product) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4">
         <div className="text-center">
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
             المنتج غير موجود
@@ -1094,7 +1091,7 @@ const ProductDetails = () => {
           content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
-      <div className="min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 transition-colors duration-300">
         {/* Option Modal */}
         {showOptionModal && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">

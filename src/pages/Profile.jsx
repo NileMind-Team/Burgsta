@@ -463,7 +463,7 @@ export default function Profile() {
 
   if (!user) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#F36B39]"></div>
       </div>
     );
@@ -497,7 +497,7 @@ export default function Profile() {
         />
       </Helmet>
       <div
-        className={`min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 py-4 sm:py-8 relative font-sans overflow-hidden transition-colors duration-300`}
+        className={`min-h-screen bg-gradient-to-br from-[#F36B39]/10 via-[#fff5f5] to-[#F36B39]/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-4 py-4 sm:py-8 relative font-sans overflow-hidden transition-colors duration-300`}
         dir="rtl"
       >
         {/* Animated Background Elements */}
