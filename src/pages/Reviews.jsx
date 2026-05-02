@@ -411,10 +411,10 @@ export default function Reviews() {
   return (
     <>
       <Helmet>
-        <title>الزاوي نيو | El-Zawy New</title>
+        <title>برجستا | Burgsta</title>
         <meta
           name="description"
-          content="الزاوي نيو، مطعم عصري يقدم أفضل المأكولات الشرقية والغربية وتجربة طعام فريدة، مع خدمة عالية الجودة."
+          content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
       <div

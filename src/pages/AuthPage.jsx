@@ -313,7 +313,7 @@ export default function AuthPage() {
   const handleGoogleLogin = async () => {
     try {
       const returnUrl = encodeURIComponent(`${window.location.origin}/auth`);
-      const tenant = "New_Zawy";
+      const tenant = "Burgesta";
 
       const googleAuthUrl = `https://restaurant-template.runasp.net/api/account/login/google?returnUrl=${returnUrl}&Tenant=${tenant}`;
       window.location.href = googleAuthUrl;
@@ -585,10 +585,10 @@ export default function AuthPage() {
   return (
     <>
       <Helmet>
-        <title>الزاوي نيو | El-Zawy New</title>
+        <title>برجستا | Burgsta</title>
         <meta
           name="description"
-          content="الزاوي نيو، مطعم عصري يقدم أفضل المأكولات الشرقية والغربية وتجربة طعام فريدة، مع خدمة عالية الجودة."
+          content="برجستا، وجهتك الأولى لعشاق البرجر، نقدم برجر شهي بمكونات طازجة وطعم لا يُنسى في كل لقمة."
         />
       </Helmet>
       <AuthLayout
