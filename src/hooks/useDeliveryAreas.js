@@ -284,7 +284,7 @@ export default function useDeliveryAreas() {
       text: "لن تتمكن من التراجع عن هذا الإجراء!",
       icon: "warning",
       showCancelButton: true,
-      confirmButtonColor: "#E41E26",
+      confirmButtonColor: "#F36B39",
       cancelButtonColor: "#6B7280",
       confirmButtonText: "نعم، احذف!",
       cancelButtonText: "إلغاء",
